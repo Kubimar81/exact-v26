@@ -1,12 +1,13 @@
 # EXACT V26
 
-Analiza meczów ligowych wg standardu **V26-Liga**. Backup **27.08.2026**.
+To jest program **EXACT V26** (nie V26-13).
 
-Repozytorium: https://github.com/Kubimar81/exact-v26
+Repo: https://github.com/Kubimar81/exact-v26
 
-V26 Analyzer zostaje osobno: https://github.com/Kubimar81/v26-analizer
+V26-13 jest osobno i na razie go nie uruchamiamy:
+https://github.com/Kubimar81/exact-v26-13
 
-## Szybki start
+## Uruchomienie lokalne
 
 ```bash
 npm install
@@ -14,6 +15,8 @@ cp .env.example .env
 npm run dev
 ```
 
-Aplikacja: http://localhost:8080
+Strona: http://localhost:8080
 
-Nie commituj pliku `.env`.
+## Strona w internecie
+
+Podłącz to repo do Vercel (Import GitHub → exact-v26) i dodaj sekret `XAI_API_KEY`.
