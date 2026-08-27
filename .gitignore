@@ -1,0 +1,12 @@
+node_modules
+dist
+.output
+.env
+*.log
+.DS_Store
+artifacts
+screenshots
+public/exact-v26.zip
+public/exact-v26.rar
+attachments/exact-v26-APP.zip
+data/analyses/*.json
